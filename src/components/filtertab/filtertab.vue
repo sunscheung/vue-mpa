@@ -10,7 +10,7 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="less">
 .filter-tab li {
     display: inline-block;
     vertical-align: top;

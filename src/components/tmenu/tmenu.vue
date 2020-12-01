@@ -1,3 +1,8 @@
+<!--
+ * @Author: Suns
+ * @Date: 2020-12-01 09:11:35
+ * @LastEditTime: 2020-12-01 09:17:38
+-->
 <template>
 
   <div class="side">
@@ -23,8 +28,8 @@
     </ul>
   </div>
 </template>
-<style lang="scss">
-@import "./tmenu.scss";
+<style lang="less">
+@import "./tmenu.less";
 .icon-menu-function {
     width: 14px;
     height: 14px;

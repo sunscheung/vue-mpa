@@ -1,3 +1,8 @@
+<!--
+ * @Author: Suns
+ * @Date: 2020-12-01 09:11:35
+ * @LastEditTime: 2020-12-01 09:18:29
+-->
 <template>
   <ul v-if="doclist&&doclist.length>0" class="article-list">
     <li v-for="item in doclist" :key="item.textid" data-type="NORMAL" class="article-item" data-id="20181121A0Q55U" data-source="0" data-pushed-flag="0" sch-pub-time="" @click="goToH5(item)">
@@ -41,8 +46,8 @@
     </div>
   </ul>
 </template>
-<style lang="scss">
-@import "./articleItem.scss";
+<style lang="less">
+@import "./articleItem.less";
 </style>
 <script>
 import { accessPost } from '@/utils/core/http.js'

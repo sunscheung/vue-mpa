@@ -1,3 +1,8 @@
+<!--
+ * @Author: Suns
+ * @Date: 2020-12-01 09:11:35
+ * @LastEditTime: 2020-12-01 09:17:46
+-->
 <template>
   <div class="header">
     <div class="bd">
@@ -11,7 +16,7 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="less">
 .header {
   border-bottom: solid 2px #458aff;
 }

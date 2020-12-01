@@ -1,13 +1,18 @@
+<!--
+ * @Author: Suns
+ * @Date: 2020-12-01 09:11:35
+ * @LastEditTime: 2020-12-01 09:12:17
+-->
 # Vue CLI 3 多页应用项目的搭建
 > 在项目初期时，从零开始搭建和配置本地前端开发环境是一项很繁琐的工作，需要考虑到项目目录结构、项目基本配置、Webpack 配置等等。通过 Vue CLI 3 可以快速的生成一个项目，这样我们就可以专注在写应用上，而不必将大量时间花费在配置上。但是官方的 vue create 命令只能快速地建立一个单页应用的原型，想要开发多页应用还需要再配置一些东西。可同时支持less,sass。
 
 
 ## 说明
-Vue CLI 3 多页应用项目**Git地址: https://github.com/zydemail/vue-mpa.git。
+Vue CLI 3 多页应用项目**Git地址: https://github.com/sunscheung/vue-mpa.git。
 
 ## 初始化
 ```bash
-git clone https://github.com/zydemail/vue-mpa.git
+git clone https://github.com/sunscheung/vue-mpa.git
 cd vue-mpa
 npm install
 ```
